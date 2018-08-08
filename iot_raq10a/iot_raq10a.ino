@@ -22,7 +22,7 @@
 //Global vars
 Adafruit_SSD1306 oled = Adafruit_SSD1306();
 
-RAQ_BME280 sensor_bme;                  //change type to RAQ_BME680 if comboboard is connected
+RAQ_BME280 sensor_bme;                  //change type to RAQ_BME680 if bme680 is connected
 RAQ_CCS811 sensor_ccs;
 RAQ_Wifi   wifi(WIFI_SSID, WIFI_PASS);
 RAQ_HttpClient http("192.168.137.1", 9000);
